@@ -1,0 +1,93 @@
+[1572427941.495][INFO]: Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800})
+[1572427941.495][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1572427942.018][INFO]: [825ea033294c122dcd072776c895c690] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [ "Q3IyNAIAAAAmAQAAAAEAADCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAIXTuRSic/QNOqKeb/goyKRu7s7rf/JZbzGxJ62feBQifCD1i0j3TwsE7G/+dqpLmh3mdF+i4AQo3FI1b9KarVONyGF3IRhJ8h+mTreQkUqQ9HCNnlU6i41i/wmJ1EoxtpaVJ..." ]
+         },
+         "platformName": "any"
+      },
+      "firstMatch": [ {
+
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [ "Q3IyNAIAAAAmAQAAAAEAADCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAIXTuRSic/QNOqKeb/goyKRu7s7rf/JZbzGxJ62feBQifCD1i0j3TwsE7G/+dqpLmh3mdF+i4AQo3FI1b9KarVONyGF3IRhJ8h+mTreQkUqQ9HCNnlU6i41i/wmJ1EoxtpaVJ..." ]
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[1572427942.028][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1572427942.032][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1572427942.066][INFO]: [825ea033294c122dcd072776c895c690] RESPONSE InitSession ERROR unknown error: cannot process extension #1
+from unknown error: CRX verification failed: 3
+[1572427942.066][DEBUG]: Log type 'driver' lost 0 entries on destruction
+[1572427942.066][DEBUG]: Log type 'browser' lost 0 entries on destruction
